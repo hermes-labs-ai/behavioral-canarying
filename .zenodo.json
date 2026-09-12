@@ -1,0 +1,22 @@
+{
+  "title": "Behavioral Canarying for Prompt Injection: Powerless Model Probes with Explicit Coverage Semantics",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
+  "description": "Behavioral canarying is a pre-execution prompt-injection sensing architecture: untrusted input is deliberately exposed to a powerless language-model probe, and its response is examined for evidence of behavioral compromise before an authority-bearing agent acts.",
+  "creators": [
+    { "name": "Bosch, Rolando", "orcid": "0009-0005-4896-1112", "affiliation": "Hermes Labs" }
+  ],
+  "keywords": [
+    "prompt injection",
+    "behavioral canarying",
+    "AI agent security",
+    "fail-open systems"
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "related_identifiers": [
+    { "identifier": "10.5281/zenodo.21818564", "relation": "isIdenticalTo", "scheme": "doi" },
+    { "identifier": "https://github.com/hermes-labs-ai/little-canary", "relation": "isSupplementTo", "scheme": "url" }
+  ],
+  "_comment": "This file mirrors the canonical Zenodo record (10.5281/zenodo.21818564, concept DOI) for discovery. The paper is already deposited directly on Zenodo. Do NOT connect this repository to the Zenodo GitHub integration / webhook: doing so would mint a second, duplicate DOI on the next GitHub release instead of pointing at the existing canonical record. Keep the GitHub-Zenodo integration OFF for this repository, exactly as hermes-publications (which carries the same kind of static .zenodo.json without live integration) already does."
+}

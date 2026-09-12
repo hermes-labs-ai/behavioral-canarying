@@ -1,0 +1,49 @@
+# Behavioral Canarying for Prompt Injection
+
+Archival repository for a Hermes Labs Zenodo technical note. Read the paper
+at https://hermes-labs.ai/research/behavioral-canarying or cite the DOI
+directly.
+
+## What this is
+
+A pre-execution prompt-injection sensing architecture: untrusted input is
+deliberately exposed to a powerless language-model probe, and its response is
+examined for evidence of behavioral compromise before an authority-bearing
+agent acts. The central contribution is an evidence-preserving interface that
+separates routing disposition from inspection coverage, so a fail-open route
+taken because inspection failed can never be conflated with a route taken
+because inspection ran and found nothing.
+
+## Canonical identity
+
+- Title: Behavioral Canarying for Prompt Injection: Powerless Model Probes with Explicit Coverage Semantics
+- Author: Rolando Bosch, Hermes Labs (ORCID 0009-0005-4896-1112)
+- DOI (concept): 10.5281/zenodo.21818564
+- DOI (current version, 1.0.1): 10.5281/zenodo.21820059
+- License: CC BY 4.0
+- Canonical HTML edition: https://hermes-labs.ai/research/behavioral-canarying
+- Hosted PDF: https://hermes-labs.ai/papers/behavioral-canarying-technical-note-v1.0.1.pdf
+- Publication index entry: https://github.com/hermes-labs-ai/hermes-publications/tree/main/papers/behavioral-canarying
+- Tool that operationalizes this note: https://github.com/hermes-labs-ai/little-canary
+
+## Evidence boundary
+
+This note does not claim universal detection, formal security, aggregate
+accuracy for the current release, or invention of the general
+sacrificial-canary concept. It names the closest located prior art
+(Sibylline Software's canary-agent design) rather than claiming novelty over
+it, and reports no numeric detection or false-positive rate for the current
+release.
+
+## Not affiliated
+
+Hermes Labs is not affiliated with NousResearch, Teknium, the Nous-Hermes LLM
+line, or the unrelated `hermes-agent` project.
+
+## Citation
+
+See CITATION.cff in this repository, or:
+
+Bosch, R. (2026). Behavioral Canarying for Prompt Injection: Powerless Model
+Probes with Explicit Coverage Semantics (Version 1.0.1). Zenodo.
+https://doi.org/10.5281/zenodo.21818564
