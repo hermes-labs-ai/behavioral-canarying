@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://doi.org/10.5281/zenodo.21820059",
+  "name": "Behavioral Canarying for Prompt Injection: Powerless Model Probes with Explicit Coverage Semantics",
+  "headline": "Behavioral Canarying for Prompt Injection: Powerless Model Probes with Explicit Coverage Semantics",
+  "description": "Behavioral canarying is a pre-execution prompt-injection sensing architecture: untrusted input is deliberately exposed to a powerless language-model probe, and its response is examined for evidence of behavioral compromise before an authority-bearing agent acts.",
+  "author": {
+    "@type": "Person",
+    "givenName": "Rolando",
+    "familyName": "Bosch",
+    "identifier": "https://orcid.org/0009-0005-4896-1112",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Hermes Labs"
+    }
+  },
+  "datePublished": "2026-08-06",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.21820059"
+  },
+  "keywords": [
+    "prompt injection",
+    "behavioral canarying",
+    "AI agent security",
+    "fail-open systems"
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "name": "behavioral-canarying-technical-note-v1.0.1.pdf",
+    "sha256": "971141ba281f8537f5fa24e1906be4a1380a739de9cb75a62ccb0d2c538a68f7"
+  }
+}
