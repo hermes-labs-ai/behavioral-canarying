@@ -4,7 +4,7 @@ title: "Behavioral Canarying for Prompt Injection: Powerless Model Probes with E
 abstract: "Behavioral canarying is a pre-execution prompt-injection sensing architecture: untrusted input is deliberately exposed to a powerless language-model probe, and its response is examined for evidence of behavioral compromise before an authority-bearing agent acts. Little Canary treats that response as non-authoritative evidence. Its central implementation contract keeps routing disposition separate from inspection coverage, distinguishing an input allowed after completed inspection from one allowed because inspection was unavailable or degraded under a fail-open policy. This technical note describes the architecture, its evidence boundary, and its relation to classifier-, token-, and containment-based approaches. It does not claim universal detection, formal security, aggregate accuracy for the current release, or invention of the general sacrificial-canary concept."
 type: software
 authors:
-  - family-names: "Bosch"
+  - family-names: "Bosch Rodriguez"
     given-names: "Rolando"
     orcid: "https://orcid.org/0009-0005-4896-1112"
     affiliation: "Hermes Labs"
@@ -19,7 +19,7 @@ preferred-citation:
   type: article
   title: "Behavioral Canarying for Prompt Injection: Powerless Model Probes with Explicit Coverage Semantics"
   authors:
-    - family-names: "Bosch"
+    - family-names: "Bosch Rodriguez"
       given-names: "Rolando"
       orcid: "https://orcid.org/0009-0005-4896-1112"
       affiliation: "Hermes Labs"
